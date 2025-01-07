@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    height: 919px;
+    background: linear-gradient(0deg, rgb(9, 9, 9) 2.884%, rgba(16, 16, 16, 0) 101.034%), url("/assets/hero-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_component {
+    width: 1023px;
+    height: 391px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 32px;
+    opacity: 0.8;
+
+}
+
+h1 {
+    margin-top: 16px;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 64px;
+    text-align: center;
+}
+
+p {
+    margin-top: 24px;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 18px;
+    text-align: center;
+}
+
+button {
+    margin-top: 32px;
+    width: 282px;
+    height: 65px;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    background: rgb(82, 195, 3);
+}
+
+.cart {
+    width: 424px;
+    height: 651px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.5);;
+   
+    border-radius: 10px 10px 0 0;
+}
+
+.cart_parent {
+    display: flex;
+    justify-content: center
+}
+
+#cart_button_one {
+
+    width: 187px;
+    height: 56px;
+    border-radius: 8px;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    padding: 14px 32px 14px 32px;
+    background: rgba(82, 195, 3, 0.15);
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+#cart_h1
+{
+
+    width: 282px;
+height: 47px;
+color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 40px;
+font-weight: 600;
+line-height: 47px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 24px;
+}
+#cart_p2
+{
+    width: 424px;
+height: 56px;
+color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+margin-top: 25px;
+}
+#cart_btn
+{
+    margin-top: 64px;
+}
