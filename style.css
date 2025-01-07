@@ -69,8 +69,9 @@ button {
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
-    border: 1px solid rgba(0, 0, 0, 0.5);;
-   
+    /* border: 1px solid rgba(0, 0, 0, 0.5); */
+    ;
+
     border-radius: 10px 10px 0 0;
 }
 
@@ -95,35 +96,64 @@ button {
     text-align: center;
 
 }
-#cart_h1
-{
+
+#cart_h1 {
 
     width: 282px;
-height: 47px;
-color: rgb(16, 16, 16);
-font-family: Work Sans;
-font-size: 40px;
-font-weight: 600;
-line-height: 47px;
-letter-spacing: 0%;
-text-align: center;
-margin-top: 24px;
+    height: 47px;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 47px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 24px;
 }
-#cart_p2
-{
+
+#cart_p2 {
     width: 424px;
-height: 56px;
-color: rgb(16, 16, 16);
-font-family: Work Sans;
-font-size: 18px;
-font-weight: 500;
-line-height: 28px;
-letter-spacing: 0%;
-text-align: center;
-opacity: 0.7;
-margin-top: 25px;
+    height: 56px;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 25px;
 }
-#cart_btn
-{
+
+#cart_btn {
     margin-top: 64px;
+}
+
+.grandpa_sale {
+margin-top: 100px;
+    display: flex;
+ 
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.on_sale_img_section {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.on_sale_p>p {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    opacity: 0.6;
+
+}
+
+.on_sale_head>h1 {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 48px;
 }
