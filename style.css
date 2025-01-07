@@ -76,7 +76,7 @@ button {
 
 .cart_parent {
     display: flex;
-    justify-content: center
+    justify-content: space-evenly;
 }
 
 #cart_button_one {
